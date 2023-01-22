@@ -4,6 +4,7 @@ const observer = new IntersectionObserver((entries)  => {
 
         if(entry.isIntersecting){
             entry.target.classList.add('show');
+             
         }else{
             entry.target.classList.remove('show')
         }
@@ -12,7 +13,6 @@ const observer = new IntersectionObserver((entries)  => {
 
 const hiddenElements = document.querySelectorAll(' .hidden');
 hiddenElements.forEach((el) => observer.observe(el));
-
 
 var textEl = document.getElementById('text')
 
@@ -25,7 +25,6 @@ var interval;
 function nextWord () {
     textToDisplay += text.split(" ")[wordIndex] + " ";
     textEl.innerHTML = textToDisplay
-
     wordIndex ++;
 
     if(wordIndex === text.split(" ").length){
