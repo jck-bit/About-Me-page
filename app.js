@@ -19,7 +19,7 @@ var textEl = document.getElementById('text')
 var text = "I am a bird and a programmer, I have a unique talent, i build  nests and software , though I have to constantly deal with distractions  such as bugs ....."
 
 var wordIndex = 0;
-var textToDisplay = "";
+var textToDisplay = ""
 var interval;
 
 function nextWord () {
@@ -34,3 +34,10 @@ function nextWord () {
 }
 
 interval = setInterval(nextWord, 200)
+
+
+const squares = document.querySelector('.squares');
+for (var i = 1; i < 230; i++) {
+  const level = Math.floor(Math.random() * 3);  
+  squares.insertAdjacentHTML('beforeend', `<li data-level="${level}"></li>`);
+}
