@@ -8,6 +8,10 @@ body{
     margin: 0;
 }
 
+.main{
+    width: fit-content;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -124,40 +128,24 @@ img{
 
 
 .main-content {
-    width: 800px;
+    display: grid;
+    place-items: center;
 }
-
 
 .my-technlogies{
 display: grid;
-grid-template-columns: repeat(7, .3fr);
-grid-template-rows: repeat(2);
-/* grid-column-gap: 10px;
-grid-row-gap: 10px; */
-
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: repeat(2, 1fr);
 border-bottom: 1px solid rgb(138, 98, 24);
 margin-bottom: 50px;
+width: 700px;
 
+}
+.i_have_learned{
+    margin: 0 20%;
 }
 
 
-.main-content::before {
-    content: "";
-    position: absolute;
-    left: 40%;
-    top: 0;
-    min-height: 100vh;
-    /* border-left: 1px solid white; */
-    transform: translateX(-50%);
-}
-
-.main-content > *{
-   left: 40%;
-   position: relative;
-   top: 0;
-   margin-left: 50px;
-   /* border: 1px solid; */
-}
 
  :root {
     --square-size: 15px;
@@ -200,10 +188,13 @@ margin-bottom: 50px;
   .squares {
     display: grid;
     grid-gap: var(--square-gap);
-    grid-template-rows: repeat(7, var(--square-size));
-   
+    grid-template-rows: repeat(7, var(--square-size));  
   }
-  
+
+  .days{
+    display: none;
+  }
+   
   .squares {
     grid-auto-flow: column;
     grid-auto-columns: var(--square-size);
