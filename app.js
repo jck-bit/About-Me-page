@@ -35,7 +35,6 @@ function nextWord () {
 
 interval = setInterval(nextWord, 200)
 
-
 const squares = document.querySelector('.squares');
 for (var i = 1; i < 230; i++) {
   const level = Math.floor(Math.random() * 3);  
