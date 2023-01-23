@@ -133,9 +133,6 @@ img{
     margin-bottom: 50px;
     
 }
-
-
-
 .glowing::before{
   content: '';
   position: absolute;
@@ -163,8 +160,6 @@ img{
     }
   }
 
-
-
 .my-technlogies{
 display: grid;
 grid-template-columns: repeat(7, 1fr);
@@ -181,7 +176,7 @@ border-radius: 10px;
 
 
 .i_have_learned{
-    margin: 0 20%;
+    margin: 0%;
 }
 
  :root {
@@ -263,3 +258,24 @@ border-radius: 10px;
   .squares li[data-level="3"] {
     background-color: #196127;
   }
+
+footer{
+    display: grid;
+    place-items: center;
+    align-content: center;
+
+}
+
+ footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer_img{
+    height: 22px;
+    width: 22px;
+    margin: 5px;
+    
+}
