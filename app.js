@@ -57,3 +57,4 @@ const images = imageNames.map(name =>{
 })
 
 images.forEach(img => imageContainer.appendChild(img))
+
