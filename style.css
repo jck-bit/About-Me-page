@@ -293,6 +293,12 @@ ul {
   background-color: #196127;
 }
 
+/* .first_project{
+  display: flex;
+  flex-direction: column;
+  
+} */
+
 footer {
   display: grid;
   place-items: center;
