@@ -45,7 +45,7 @@ h1 {
   text-transform: uppercase;
 }
 
-p {
+.margin_bottom p {
   font-size: 1.2rem;
   line-height: 1.5;
   margin: 30px auto;
@@ -104,7 +104,6 @@ p {
   transform: translateY(50px);
   }
 
-
   .connect_section ul{
       list-style-type: none;
       display: flex;
@@ -124,6 +123,10 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: all 0.3s ease-in-out;
+  }
+
+  .connect_section a{
+    text-decoration: none;
   }
 
  img{
