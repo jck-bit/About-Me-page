@@ -19,6 +19,8 @@ body {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 500px;
+  margin-top: 20px;
+ 
 }
 
 .navbar a {
@@ -26,11 +28,12 @@ body {
   padding: 20px 30px;
   text-decoration: none;
   color: #f2f2f2;
-  transition: background-color 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color: #404040;
 }
 
 .navbar a:hover {
-  background-color: #404040;
+  background-color: #555151;;
 }
 
 .content {
