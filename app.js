@@ -27,4 +27,4 @@ link.addEventListener('click', e => {
     });
     }, 1000);
 });
-});
+})
