@@ -22,6 +22,8 @@ body {
   margin-top: 20px;
 }
 
+
+
 .navbar a {
   display: inline-block;
   padding: 20px 30px;
@@ -114,7 +116,6 @@ h1 {
       justify-content: center;
       margin: 0 auto;
       max-width: 800px;
-    
   }
 
   .connect_section li {
@@ -138,3 +139,78 @@ h1 {
    object-fit: cover;
    border-radius: 10px;
  }
+
+.projects_section a{
+  text-decoration: none;
+  
+}
+
+
+.project_p{
+  font-size: normal;
+  margin-top: 100px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.projects_section ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.whole_project_div{
+  width: 200px;
+  background-color:  #3c3939;;
+  border-radius: 0px;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
+.whole_project_div img{
+  height: 150px;
+  width: 100%;
+  object-position: 0%;
+  object-fit:cover;
+}
+
+.whole_project_div p{
+  font-size: 10px;
+  text-align: center;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list_of_technologies ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.list_of_technologies li{
+  font-size: 10px;
+  border: none;
+  background-color: #212020;
+  padding: 5px;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list_of_technologies li:hover {
+  background-color: #3c3939;
+  border-color: #404040;
+  color: #f2f2f2;
+  cursor: pointer;
+}
