@@ -1,0 +1,14 @@
+{
+  "name": "kinyanjui",
+  "version": "1.0.0",
+  "description": "[Open Me](https://jck-bit.github.io/About-Me-page/)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swup": "^3.1.1"
+  }
+}

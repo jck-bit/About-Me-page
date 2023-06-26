@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script defer type="module">
+    import Swup from 'https://unpkg.com/swup@3?module';
+    const swup = new Swup();
+  </script>
+  <script defer src="/app.js"></script>
+  <title>Home</title>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <div class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a href="/index.html" class="navbar-brand">Home</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+        <span class="navbar-toggler-icon" style="color: wheat;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a href="/html/about.html" class="nav-link">About</a>
+        </li>
+          <li class="nav-item">
+              <a href="/html/skills.html" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="/html/projects.html" class="nav-link">wakatime</a>
+        </li>
+        <li class="nav-item">
+          <a href="/html/connect.html" class="nav-link">Connect</a>
+      </li>
+      </ul>
+  </div>
+    </div>
+  </div>
+  <style>
+   .about {
+  align-items: center !important;
+}
+
+
+
+.about_profile img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 892px) {
+  .about {
+    display: flex;
+    flex-direction: column !important;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+
+  .about_profile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+  
+  .about_profile img {
+    height: 250px;
+  }
+  .about_details{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+  </style>
+<div id="swup" class="container transition-fade">
+  <div class="row about">
+    <div class="col-lg-6 about_profile transition-index">
+      <img src="/img/me.jpg" alt="Card image cap" class="img-fluid">
+    </div>
+    <div class="col-lg-6 mt-3 about_details text-start transition-swipe">
+      <h1 class="text-start" style="font-weight: bold;">About Me</h1>
+      <p class="transition-swipe">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+      </p>
+      <button class="btn btn-secondary p-3">
+        <a class="link-light text-decoration-none" href="https://docs.google.com/document/d/1CnfJ66Q4hYgmK7HMHqcLPp2PS6w0xXYQ/edit?=sharing" style="text-transform: uppercase;">Download cv</a>
+      </button>
+    </div>
+  </div> 
+</div>
+
+    
+</body>
+</html>
