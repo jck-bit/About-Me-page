@@ -47,7 +47,10 @@
   align-items: center !important;
 }
 
-
+.down:hover{
+  background-color: #333 !important;
+  border: none;
+}
 
 .about_profile img {
   height: 100%;
@@ -60,20 +63,13 @@
     flex-direction: column !important;
     padding: 1rem;
     justify-content: space-between;
-  }
+    }
 
-  .about_profile{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-  
-  .about_profile img {
-    height: 250px;
-  }
   .about_details{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
   }
 }
 
@@ -85,10 +81,10 @@
     </div>
     <div class="col-lg-6 mt-3 about_details text-start transition-swipe">
       <h1 class="text-start" style="font-weight: bold;">About Me</h1>
-      <p class="transition-swipe">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+      <p class="transition-swipe mb-4">
+        I am a passionate coder and lifelong learner, currently pursuing my studies at the University of Nairobi. Coding brings me joy and satisfaction as I constantly explore new technologies and expand my knowledge. Apart from coding, I am a football fanatic, enjoying the thrill of the game, and I find solace in listening to music as it fuels my creativity.
       </p>
-      <button class="btn btn-secondary p-3">
+      <button class="btn btn-secondary p-3 mt-3 down">
         <a class="link-light text-decoration-none" href="https://docs.google.com/document/d/1CnfJ66Q4hYgmK7HMHqcLPp2PS6w0xXYQ/edit?=sharing" style="text-transform: uppercase;">Download cv</a>
       </button>
     </div>
