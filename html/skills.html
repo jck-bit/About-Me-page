@@ -4,18 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
   <script defer type="module">
     import Swup from 'https://unpkg.com/swup@3?module';
-    const swup = new Swup({
-      cache:false
-    });
+    const swup = new Swup();
   </script>
   <script defer src="/app.js"></script>
   <title>Home</title>
@@ -32,7 +28,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a href="/html/about.html" class="nav-link">About</a>
-      </li>
+         </li>
           <li class="nav-item">
               <a href="/html/skills.html" class="nav-link">Skills</a>
           </li>
@@ -46,64 +42,26 @@
   </div>
     </div>
   </div>
-  <style>
-    .clamp-4-lines {
-      display: -webkit-box;
-      -webkit-line-clamp: 5;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-  </style>
-  
+
   <div class="container">
-    <section id="swup" class="welcome d-flex flex-column justify-content-center p-2" style="height: calc(100vh - 30px); max-width: 760px; ">
-      <h1 class="text-start 2rem mb-5 transition-fade" style="letter-spacing: 1px;">Hello!, my name is Kinyanjui 👋</h1>
-      <h2 class="clamp-4-lines transition-came" style="font-size: 2rem;">I'm a Principal Architect with extensive experience in digital transformation projects, enterprise architecture, and application development.</h2>
-
-    <style>
-    
-      .card-footer ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-start;
-
-        
-      }
-      .card-footer li i {
-        font-size: 64px;
-        margin: 0;
-
-      }
-
-      a{
-        color: #ccc;
-      }
-      a:hover{
-        color:  #ccc;
-      }
-    </style>
-    
-    <div class="card-footer border-0 p-2 bg-transparent  mt-5">
-      <ul class="transition-fade">
-        <li>
-          <a href="https://github.com/jck-bit" target="_blank"><i class="fa fa-github"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/KinyanjuiJack1" target="_blank"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="https://stackoverflow.com/users/15043819/kinyanjui-jack" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/jack-kinyanjui-53291624b/" target="_blank"><i class="fa fa-linkedin"></i></a>
-        </li>
-      </ul>
-    </div>
-    </section>
-    
+    <div class="content content-enter">
+        <section id="swup" class="skills_section transition-fade">
+          <h1 class="transition-came">Skills</h1>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>React</li>
+            <li>Nextjs</li>
+            <li>Typescript</li>
+            <li>GIT</li>
+          </ul>
+        </section>
+      </div>
   </div>
+
 </body>
 </html>
