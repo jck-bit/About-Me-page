@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.none{
+  display: none;
+}
+
 body  {
   background-color: #252526 !important;
   color: #ccc !important;
