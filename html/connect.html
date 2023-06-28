@@ -9,7 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-  <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+                                                                        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+                                                                        crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script defer type="module">
     import Swup from 'https://unpkg.com/swup@3?module';
@@ -43,14 +45,30 @@
   </div>
     </div>
   </div>
-  <div id="swup" class="container d-flex align-items-center justify-content-center transition-fade" style="height: calc(100vh - 250px)";>
-    <div class="row flex-column">
+
+  <style>
+  .kontainer {
+  min-height: calc(100vh); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+  </style>
+  <div id="swup" class="kontainer " style="height: calc(100vh - 250px)";>
+    <div class="row  flex-column transition-fade">
       <div class="col-lg-12 text-center">
         <h1 class="mb-4">Connect with Me</h1>
       </div>
       <div class="col-lg-12 text-center">
         <div class="d-flex flex-row align-items-center justify-content-start ml-0">
-          <i class="fa fa-envelope fa-3x mr-3"></i>
+          <i class="fa-solid fa-envelope fa-2x"></i>
           <a href="mailto:jckkinyanjui@gmail.com" class="text-decoration-none text-white m-lg-3 p-4">
             <span style="font-size: 13px;">jckkinyanjui@gmail.com</span>
           </a>
@@ -58,31 +76,45 @@
       </div>
       <div class="col-lg-12 text-center mt-3">
         <div class="d-flex flex-row align-items-center justify-content-start ml-0">
-          <i class="fa fa-phone fa-3x mr-3"></i>
+          <i class="fa-solid fa-phone fa-2x"></i>
           <a href="tel:+1234567890" class="text-decoration-none p-4 text-white">
             <span style="font-size: 13px;"">tel: +254 790407966</span>
           </a>
         </div>
       </div>
     </div>
+    <footer class=" bg-transparent fixed-bottom transition-swipe" style="height: 80px;">
+      <ul class="transition-fade d-flex justify-content-center align-items-center" style="list-style: none;">
+        <li class="p-1">
+          <a href="https://github.com/jck-bit" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="p-1">
+          <a href="https://twitter.com/KinyanjuiJack1" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="p-1">
+          <a href="https://stackoverflow.com/users/15043819/kinyanjui-jack" target="_blank">
+            <i class="fa-brands fa-stack-overflow"></i>
+          </a>
+        </li>
+        <li class="p-1">
+          <a href="https://www.linkedin.com/in/jack-kinyanjui-53291624b/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+       <p class="text-center">All rights reseved © 2023</p>
+    </footer>
   </div>
-  <div class="card-footer  bg-transparent fixed-bottom " id="footer">
-    <ul class="transition-fade d-flex justify-content-center align-items-center" style="list-style: none;">
-      <li class="p-1">
-        <a href="https://github.com/jck-bit" target="_blank"><i class="fa fa-github"></i></a>
-      </li>
-      <li class="p-1">
-        <a href="https://twitter.com/KinyanjuiJack1" target="_blank"><i class="fa fa-twitter"></i></a>
-      </li>
-      <li class="p-1">
-        <a href="https://stackoverflow.com/users/15043819/kinyanjui-jack" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-      </li>
-      <li class="p-1">
-        <a href="https://www.linkedin.com/in/jack-kinyanjui-53291624b/" target="_blank"><i class="fa fa-linkedin"></i></a>
-      </li>
-    </ul>
-     <p class="text-center">All rights reseved © 2023</p>
-  </div>
-  
+
+  <style>
+    a{
+        color: #ccc !important;
+      }
+  </style>
+</main>
 </body>
 </html>

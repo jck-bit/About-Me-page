@@ -13,10 +13,7 @@ body  {
   color: #ccc !important;
   font-family: Poppins, sans-serif !important;
 }
-
-.about_profile img{
-  height: 100%;
-}
+z
 
 img {
   overflow-clip-margin: content-box;
@@ -75,7 +72,7 @@ img {
   
   html.is-animating .transition-swipe {
   transform: translateY(100%);
-  }
+  } 
 
 .navbar a {
   text-decoration: none;
@@ -91,8 +88,6 @@ img {
 .navbar li:hover{
   background-color: #242b2f;
 }
-
-
 
 .content {
   height: 100vh;
@@ -151,90 +146,6 @@ h1 {
   border-color: #404040;
   color: #f2f2f2;
   cursor: pointer;
-}
-
-.skills_section,
-.margin_bottom,
-.connect_section,
-.experience_section,
-.projects_section
- {
-   padding-top: 40px;
- }
-
-
-.animate {
-  transition: transform 1s ease-in-out;
-  transform: translateY(50px);
-  }
-
-  .connect_section ul{
-      list-style-type: none;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 0 auto;
-  }
-
-  .connect_section li {
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .connect_section a{
-    text-decoration: none;
-  }
-
-
-.projects_section a{
-  text-decoration: none;
-  
-}
-
-
-.project_p{
-  font-size: normal;
-  margin-top: 100px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-.projects_section ul{
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1000px;
-}
-
-
-.whole_project_div{
-  width: 200px;
-  background-color:  #3c3939;;
-  border-radius: 0px;
-  margin: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-align: center;
-  letter-spacing: 2px;
-  transition: all 0.3s ease-in-out;
-  color: #fff;
-}
-
-
-.whole_project_div p{
-  font-size: 10px;
-  text-align: center;
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .list_of_technologies ul{
