@@ -4,8 +4,6 @@ window.addEventListener("load", function() {
     });
   });
 
-
-
 //fetch github repos
 let repositoryData = null;
 
